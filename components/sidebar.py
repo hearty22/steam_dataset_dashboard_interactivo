@@ -3,7 +3,7 @@ import streamlit as st
 def render_sidebar(df):
     """Renderiza la barra lateral interactiva basada en el dataset real."""
     with st.sidebar:
-        st.header("⚙️ Panel de Control")
+        st.header(" Panel de Control")
         st.markdown("Ajustá los parámetros para filtrar los datos en tiempo real.")
 
         if df.empty:
