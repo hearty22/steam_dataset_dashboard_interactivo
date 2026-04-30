@@ -33,7 +33,7 @@ def render_sidebar(df):
             generos_seleccionados = []
 
         st.divider()
-        st.info("💡 Estos filtros recalculan todos los gráficos automáticamente.")
+        st.info(" Estos filtros recalculan todos los gráficos automáticamente.")
 
         # Retornamos el diccionario de estado
         return {

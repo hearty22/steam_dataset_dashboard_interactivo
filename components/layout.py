@@ -34,7 +34,7 @@ def render_dashboard_grid(df):
     charts = create_all_charts(df)
 
     # --- IMPLEMENTACIÓN DE PESTAÑAS (TABS) ---
-    tab1, tab2 = st.tabs(["📊 Análisis Principal", "💻 Detalles Técnicos"])
+    tab1, tab2 = st.tabs([" Análisis Principal", " Detalles Técnicos"])
 
     with tab1:
         col1, col2 = st.columns(2)
