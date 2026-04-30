@@ -34,7 +34,12 @@ def render_sidebar(df):
 
         st.divider()
         st.info(" Estos filtros recalculan todos los gráficos automáticamente.")
-
+        st.markdown("<br>" * 10, unsafe_allow_html=True)
+                st.divider()
+                st.markdown("###  Datos del Trabajo")
+                # Enlace directo al dataset de Kaggle utilizado en el TP
+                st.markdown("[Steam Games Dataset (Kaggle)](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)")
+                st.caption("Información obtenida a través de la API oficial de Steam.")
         # Retornamos el diccionario de estado
         return {
             "precio_min": precio_min,
