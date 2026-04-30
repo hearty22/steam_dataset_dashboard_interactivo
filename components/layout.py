@@ -3,7 +3,7 @@ from components.charts import create_all_charts
 
 
 def render_header():
-    st.title("Reporte: Visualizacion de datos")
+    st.title("Reporte: Visualizacion de datos - Steam Games")
 
 
 def render_dashboard_grid(df):

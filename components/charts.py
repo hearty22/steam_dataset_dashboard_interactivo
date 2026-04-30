@@ -185,7 +185,11 @@ def create_playtime_boxplot(df):
         y="Average playtime forever",
         color="Genres",
         title="Distribución de Tiempo de Juego por Género (Top 5)",
-        log_y=True,  # Aplicamos escala logarítmica porque hay mucha dispersión
+        log_y=True,
+        labels={
+                    "Genres": "Género",
+                    "Average playtime forever": "Minutos Jugados"
+                }
     )
 
     fig.update_layout(
